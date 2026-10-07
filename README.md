@@ -18,7 +18,7 @@ To integrate `XMediatorStack` into your Xcode project using Swift Package Manage
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-bidmachine-swift-package", exact: "3.8.000")
+    .package(url: "https://github.com/x3mads/xmediator-bidmachine-swift-package", exact: "3.8.100")
 ]
 ```
 

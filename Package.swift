@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorStack", targets: ["XMediatorStackTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/bidmachine/BidMachine-SPM.git", exact: "3.8.0"),
+        .package(url: "https://github.com/bidmachine/BidMachine-SPM.git", exact: "3.8.1"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.145.0")),
     ],
     targets: [
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorStack",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorStack/XMediatorStack-3.8.0.0.zip",
-            checksum: "1e01fd2f694f827d7187a6bbdc967b570cb238ea850ece780fa3861dbbaf537e"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorStack/XMediatorStack-3.8.1.0.zip",
+            checksum: "4f46a621bda2da1577f71325ddabaf3e1b688d2e93c2869c25af8a60090ed396"
         ),
     ]
 )
